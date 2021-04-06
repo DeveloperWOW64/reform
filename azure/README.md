@@ -1,1 +1,1 @@
-This folder contains Configuration and resources for Azure.
+This folder contains Configuration and resources for Azure, Azure DevOps and Azure Pipelines.
