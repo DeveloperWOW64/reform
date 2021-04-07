@@ -110,27 +110,27 @@
           "dependencies": {
             "AdaptiveCards": {
               "target": "Package",
-              "version": "[2.3.0, )"
+              "version": "[2.7.1, )"
             },
             "Microsoft.AppCenter.Analytics": {
               "target": "Package",
-              "version": "[4.0.0, )"
+              "version": "[4.2.0, )"
             },
             "Microsoft.AppCenter.Crashes": {
               "target": "Package",
-              "version": "[4.0.0, )"
+              "version": "[4.2.0, )"
             },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
-              "version": "[6.2.10, )"
+              "version": "[6.2.12, )"
             },
             "Microsoft.Toolkit.Uwp.UI.Controls": {
               "target": "Package",
-              "version": "[6.1.1, )"
+              "version": "[7.0.1, )"
             },
             "Microsoft.UI.Xaml": {
               "target": "Package",
-              "version": "[2.4.3, )"
+              "version": "[2.5.0, )"
             },
             "Microsoft.Xaml.Behaviors.Uwp.Managed": {
               "target": "Package",
