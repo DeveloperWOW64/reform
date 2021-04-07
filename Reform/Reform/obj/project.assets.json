@@ -20981,6 +20981,7 @@
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.18362": [
       "AdaptiveCards >= 2.3.0",
+      "Microsoft.AppCenter >= 4.2.0",
       "Microsoft.AppCenter.Analytics >= 4.2.0",
       "Microsoft.AppCenter.Crashes >= 4.2.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.10",
@@ -21038,6 +21039,10 @@
           "AdaptiveCards": {
             "target": "Package",
             "version": "[2.3.0, )"
+          },
+          "Microsoft.AppCenter": {
+            "target": "Package",
+            "version": "[4.2.0, )"
           },
           "Microsoft.AppCenter.Analytics": {
             "target": "Package",

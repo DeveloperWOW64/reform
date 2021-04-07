@@ -112,6 +112,10 @@
               "target": "Package",
               "version": "[2.3.0, )"
             },
+            "Microsoft.AppCenter": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "Microsoft.AppCenter.Analytics": {
               "target": "Package",
               "version": "[4.2.0, )"

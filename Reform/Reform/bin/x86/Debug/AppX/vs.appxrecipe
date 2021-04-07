@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-07T08:25:36.574</Modified>
+      <Modified>2021-04-07T16:20:37.249</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Reform.exe">
       <PackagePath>entrypoint\Reform.exe</PackagePath>
-      <Modified>2021-04-07T08:18:03.191</Modified>
+      <Modified>2021-04-07T16:20:35.738</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jupiter\.nuget\packages\adaptivecards\2.3.0\lib\netstandard2.0\AdaptiveCards.dll">
       <PackagePath>AdaptiveCards.dll</PackagePath>
@@ -166,67 +166,67 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Reform.xr.xml">
       <PackagePath>Reform.xr.xml</PackagePath>
-      <Modified>2021-04-07T07:59:18.916</Modified>
+      <Modified>2021-04-07T16:20:35.448</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-04-07T08:06:02.977</Modified>
+      <Modified>2021-04-07T16:20:35.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Styles\CommandBar.xbf">
       <PackagePath>Styles\CommandBar.xbf</PackagePath>
-      <Modified>2021-04-07T08:06:02.976</Modified>
+      <Modified>2021-04-07T16:20:35.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
-      <Modified>2021-04-07T08:06:02.976</Modified>
+      <Modified>2021-04-07T16:20:35.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Styles\_Colors.xbf">
       <PackagePath>Styles\_Colors.xbf</PackagePath>
-      <Modified>2021-04-07T08:06:02.977</Modified>
+      <Modified>2021-04-07T16:20:35.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
-      <Modified>2021-04-07T08:06:02.977</Modified>
+      <Modified>2021-04-07T16:20:35.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
-      <Modified>2021-04-07T08:06:02.977</Modified>
+      <Modified>2021-04-07T16:20:35.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
-      <Modified>2021-04-07T08:06:02.977</Modified>
+      <Modified>2021-04-07T16:20:35.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Views\FirstRunDialog.xbf">
       <PackagePath>Views\FirstRunDialog.xbf</PackagePath>
-      <Modified>2021-04-07T08:06:02.977</Modified>
+      <Modified>2021-04-07T16:20:35.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Views\InkDrawPage.xbf">
       <PackagePath>Views\InkDrawPage.xbf</PackagePath>
-      <Modified>2021-04-07T08:06:02.958</Modified>
+      <Modified>2021-04-07T16:20:35.506</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Views\InkDrawPicturePage.xbf">
       <PackagePath>Views\InkDrawPicturePage.xbf</PackagePath>
-      <Modified>2021-04-07T08:06:02.961</Modified>
+      <Modified>2021-04-07T16:20:35.510</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Views\InkSmartCanvasPage.xbf">
       <PackagePath>Views\InkSmartCanvasPage.xbf</PackagePath>
-      <Modified>2021-04-07T08:06:02.965</Modified>
+      <Modified>2021-04-07T16:20:35.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Views\SchemeActivationSamplePage.xbf">
       <PackagePath>Views\SchemeActivationSamplePage.xbf</PackagePath>
-      <Modified>2021-04-07T08:06:02.977</Modified>
+      <Modified>2021-04-07T16:20:35.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
-      <Modified>2021-04-07T08:06:02.977</Modified>
+      <Modified>2021-04-07T16:20:35.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Views\ShellPage.xbf">
       <PackagePath>Views\ShellPage.xbf</PackagePath>
-      <Modified>2021-04-07T08:06:02.978</Modified>
+      <Modified>2021-04-07T16:20:35.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Views\SupportMePage.xbf">
       <PackagePath>Views\SupportMePage.xbf</PackagePath>
-      <Modified>2021-04-07T08:06:02.978</Modified>
+      <Modified>2021-04-07T16:20:35.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -242,11 +242,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-04-07T08:25:35.925</Modified>
+      <Modified>2021-04-07T16:20:36.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Core\Reform.exe">
       <PackagePath>Reform.exe</PackagePath>
-      <Modified>2021-04-07T08:25:36.570</Modified>
+      <Modified>2021-04-07T16:20:37.244</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

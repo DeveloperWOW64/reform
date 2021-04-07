@@ -24,7 +24,7 @@
     </ContentDialog.TitleTemplate>
     <ScrollViewer>
         <StackPanel>
-            <TextBlock x:Uid="FirstRun_Body" TextWrapping="WrapWholeWords" />
+            <TextBlock x:Uid="FirstRun_Body" TextWrapping="WrapWholeWords" SelectionChanged="TextBlock_SelectionChanged" />
         </StackPanel>
     </ScrollViewer>
 </ContentDialog>
