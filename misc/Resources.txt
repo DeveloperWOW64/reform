@@ -1,0 +1,7 @@
+AppDescription: Reform is a simple drawing app, made for the Universal Windows Platform.
+FirstRun_Body.Text: Thank you very much for downloading this app, and welcome to Reform!
+Reform is a simple drawing app, made for the Universal Windows Platform.
+You can use this app to draw to your heart's content.
+Click around, see what this app can do!
+Anyway, Get started, I hope you have a nice time using this app.
+Also, If you wan't to view some of my other creations, or even collaborate on this one, (It is open-source) feel free to visit github.com/DeveloperWOW64!
