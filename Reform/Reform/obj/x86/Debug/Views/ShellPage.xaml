@@ -1,4 +1,4 @@
-﻿<Page
+﻿<Page x:ConnectionId='1'
     x:Class="Reform.Views.ShellPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -9,15 +9,15 @@
     xmlns:winui="using:Microsoft.UI.Xaml.Controls"
     xmlns:helpers="using:Reform.Helpers"
     xmlns:views="using:Reform.Views"
-    Loaded="OnLoaded"
+                     
     mc:Ignorable="d">
 
-    <winui:NavigationView
+    <winui:NavigationView x:ConnectionId='2'
         x:Name="navigationView"
         IsBackButtonVisible="Visible"
-        IsBackEnabled="{x:Bind IsBackEnabled, Mode=OneWay}"
-        SelectedItem="{x:Bind Selected, Mode=OneWay}"
-        ItemInvoked="OnItemInvoked"
+                                                           
+                                                     
+                                   
         IsSettingsVisible="True"
         Background="{ThemeResource SystemControlBackgroundAltHighBrush}">
         <winui:NavigationView.MenuItems>
@@ -31,8 +31,8 @@
             <winui:NavigationViewItem x:Uid="Shell_Draw" Icon="Document" helpers:NavHelper.NavigateTo="views:DrawPage" Content="Draw" />
         </winui:NavigationView.MenuItems>
         <i:Interaction.Behaviors>
-            <behaviors:NavigationViewHeaderBehavior
-                DefaultHeader="{x:Bind Selected.Content, Mode=OneWay}">
+            <behaviors:NavigationViewHeaderBehavior x:ConnectionId='3'
+                                                                      >
                 <behaviors:NavigationViewHeaderBehavior.DefaultHeaderTemplate>
                     <DataTemplate>
                         <Grid>
@@ -46,7 +46,8 @@
             </behaviors:NavigationViewHeaderBehavior>
         </i:Interaction.Behaviors>
         <Grid>
-            <Frame x:Name="shellFrame" />
+            <Frame x:ConnectionId='5' x:Name="shellFrame" />
         </Grid>
     </winui:NavigationView>
 </Page>
+

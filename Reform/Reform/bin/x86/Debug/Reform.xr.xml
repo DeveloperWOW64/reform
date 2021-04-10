@@ -206,6 +206,7 @@
     </RootType>
     <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItem">
       <RootProperty Name="Icon" />
+      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Reform.Helpers.NavHelper">
       <RootMethod Name="GetNavigateTo" />
