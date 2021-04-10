@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>D8110318606A00BC25F5F1F22F3283DFD643BD53E4CBD01E03DEA1FC9576A571</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>F2D26A13EF5D94A51A0690373CA6F26759DEDDF3C45CBD278E1F00234205D65E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>577D01CF-8A74-4E2D-A511-AE4D3634DD65_1.0.0.0_x86__7pxnk7wae7578</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>577D01CF-8A74-4E2D-A511-AE4D3634DD65_7pxnk7wae7578!App</RegisteredUserModeAppID>
     <RegisteredPackageID>577D01CF-8A74-4E2D-A511-AE4D3634DD65</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-09T17:52:35.116</Modified>
+      <Modified>2021-04-10T07:21:06.913</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Reform.exe">
       <PackagePath>entrypoint\Reform.exe</PackagePath>
-      <Modified>2021-04-09T17:52:34.354</Modified>
+      <Modified>2021-04-10T07:21:05.630</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jupiter\.nuget\packages\microsoft.appcenter\4.0.0\lib\uap10.0\Microsoft.AppCenter.dll">
       <PackagePath>Microsoft.AppCenter.dll</PackagePath>
@@ -118,9 +118,234 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T04:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-04-09T17:37:07.643</Modified>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Edit Image - Copy.png">
+      <PackagePath>Assets\Edit Image - Copy.png</PackagePath>
+      <Modified>2021-04-10T06:56:45.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:45.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:45.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:45.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:45.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:45.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:47.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:45.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:45.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:45.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:45.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.630</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.580</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:47.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:47.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:47.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:47.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:47.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:45.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:45.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:45.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-10T06:57:46.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -129,84 +354,83 @@
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-09T17:37:07.629</Modified>
+      <Modified>2021-04-10T06:57:46.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-09T17:37:07.630</Modified>
+      <Modified>2021-04-10T06:57:45.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-09T17:37:07.632</Modified>
+      <Modified>2021-04-10T06:57:46.404</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-09T17:37:07.635</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-09T17:37:07.636</Modified>
+      <Modified>2021-04-10T06:57:46.562</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-09T17:37:07.638</Modified>
+      <Modified>2021-04-10T06:57:45.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2021-04-09T17:37:07.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Reform.xr.xml">
       <PackagePath>Reform.xr.xml</PackagePath>
-      <Modified>2021-04-09T17:42:53.910</Modified>
+      <Modified>2021-04-09T18:03:05.842</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-04-09T17:48:29.851</Modified>
+      <Modified>2021-04-10T07:21:05.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Styles\CommandBar.xbf">
       <PackagePath>Styles\CommandBar.xbf</PackagePath>
-      <Modified>2021-04-09T17:52:34.245</Modified>
+      <Modified>2021-04-10T07:21:05.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
-      <Modified>2021-04-09T17:52:34.245</Modified>
+      <Modified>2021-04-10T07:21:05.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Styles\_Colors.xbf">
       <PackagePath>Styles\_Colors.xbf</PackagePath>
-      <Modified>2021-04-09T17:52:34.245</Modified>
+      <Modified>2021-04-10T07:21:05.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
-      <Modified>2021-04-09T17:52:34.245</Modified>
+      <Modified>2021-04-10T07:21:05.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
-      <Modified>2021-04-09T17:52:34.245</Modified>
+      <Modified>2021-04-10T07:21:05.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
-      <Modified>2021-04-09T17:52:34.245</Modified>
+      <Modified>2021-04-10T07:21:05.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Views\DrawPage.xbf">
       <PackagePath>Views\DrawPage.xbf</PackagePath>
-      <Modified>2021-04-09T17:48:29.845</Modified>
+      <Modified>2021-04-10T07:21:05.450</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Views\FirstRunDialog.xbf">
       <PackagePath>Views\FirstRunDialog.xbf</PackagePath>
-      <Modified>2021-04-09T17:48:29.851</Modified>
+      <Modified>2021-04-10T07:21:05.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Views\HomePage.xbf">
       <PackagePath>Views\HomePage.xbf</PackagePath>
-      <Modified>2021-04-09T17:52:34.245</Modified>
+      <Modified>2021-04-10T07:21:05.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
-      <Modified>2021-04-09T17:48:29.851</Modified>
+      <Modified>2021-04-10T07:21:05.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Views\ShellPage.xbf">
       <PackagePath>Views\ShellPage.xbf</PackagePath>
-      <Modified>2021-04-09T17:48:29.851</Modified>
+      <Modified>2021-04-10T07:21:05.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -222,11 +446,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-04-09T17:42:55.205</Modified>
+      <Modified>2021-04-10T07:21:06.016</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\Reform\Reform\bin\x86\Debug\Core\Reform.exe">
       <PackagePath>Reform.exe</PackagePath>
-      <Modified>2021-04-09T17:52:35.111</Modified>
+      <Modified>2021-04-10T07:21:06.909</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

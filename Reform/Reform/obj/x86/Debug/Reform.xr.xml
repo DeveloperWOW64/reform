@@ -61,6 +61,7 @@
       <RootProperty Name="MaxLines" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Text" />
+      <RootProperty Name="Inlines" />
       <RootProperty Name="Style" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
@@ -168,6 +169,11 @@
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Reform.Views.FirstRunDialog" />
+    <RootType FullName="Windows.UI.Xaml.Documents.Run">
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Text" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Documents.LineBreak" />
     <RootType FullName="Reform.Views.HomePage" />
     <RootType FullName="Reform.Helpers.EnumToBooleanConverter">
       <RootProperty Name="EnumType" />

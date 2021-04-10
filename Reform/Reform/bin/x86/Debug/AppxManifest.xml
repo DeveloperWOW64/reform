@@ -11,7 +11,7 @@
   <mp:PhoneIdentity PhoneProductId="577D01CF-8A74-4E2D-A511-AE4D3634DD65" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Reform</DisplayName>
-    <PublisherDisplayName>Jupiter</PublisherDisplayName>
+    <PublisherDisplayName>DeveloperWOW64</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -27,7 +27,7 @@
   <Applications>
     <Application Id="App" desktop4:SupportsMultipleInstances="true" iot2:SupportsMultipleInstances="true" Executable="Reform.exe" EntryPoint="Reform.App">
       <uap:VisualElements DisplayName="ms-resource:AppDisplayName" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="ms-resource:AppDescription" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
       <Extensions></Extensions>

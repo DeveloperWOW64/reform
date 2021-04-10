@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Edit Image - Copy.png</Source>
+    <SmallTileSource>D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Edit Image - Copy.png</SmallTileSource>
+    <MediumTileSource>D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Edit Image - Copy.png</MediumTileSource>
+    <WideTileSource>D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Edit Image - Copy.png</WideTileSource>
+    <LargeTileSource>D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Edit Image - Copy.png</LargeTileSource>
+    <AppIconSource>D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Edit Image - Copy.png</AppIconSource>
+    <SplashScreenSource>D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Edit Image - Copy.png</SplashScreenSource>
+    <PackageLogoSource>D:\Repositories\DeveloperWOW64\reform\Reform\Reform\Assets\Edit Image - Copy.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>
