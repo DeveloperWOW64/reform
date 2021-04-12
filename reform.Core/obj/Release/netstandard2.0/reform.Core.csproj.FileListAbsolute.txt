@@ -1,0 +1,9 @@
+D:\Repositories\DeveloperWOW64\reform\reform.Core\bin\Release\netstandard2.0\reform.Core.deps.json
+D:\Repositories\DeveloperWOW64\reform\reform.Core\bin\Release\netstandard2.0\reform.Core.dll
+D:\Repositories\DeveloperWOW64\reform\reform.Core\bin\Release\netstandard2.0\reform.Core.pdb
+D:\Repositories\DeveloperWOW64\reform\reform.Core\obj\Release\netstandard2.0\reform.Core.csprojAssemblyReference.cache
+D:\Repositories\DeveloperWOW64\reform\reform.Core\obj\Release\netstandard2.0\reform.Core.AssemblyInfoInputs.cache
+D:\Repositories\DeveloperWOW64\reform\reform.Core\obj\Release\netstandard2.0\reform.Core.AssemblyInfo.cs
+D:\Repositories\DeveloperWOW64\reform\reform.Core\obj\Release\netstandard2.0\reform.Core.csproj.CoreCompileInputs.cache
+D:\Repositories\DeveloperWOW64\reform\reform.Core\obj\Release\netstandard2.0\reform.Core.dll
+D:\Repositories\DeveloperWOW64\reform\reform.Core\obj\Release\netstandard2.0\reform.Core.pdb
