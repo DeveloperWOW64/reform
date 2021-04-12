@@ -1,0 +1,39 @@
+<TextBlock>
+                <Run> Welcome to Reform. Click on the 'Draw' button on the left to begin. </Run><LineBreak/>
+                <Run> You can also import an image and draw ontop of it!</Run><LineBreak/>
+                <LineBreak/>
+                <Run FontSize="24"> What's New:</Run> <LineBreak/>
+                <LineBreak/>
+                <Run> Hmm... There are no new features. Maybe check again later?</Run>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <LineBreak/>
+                <Run> DeveloperWOW64</Run>
+            </TextBlock>

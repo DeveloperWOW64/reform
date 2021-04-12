@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+Q+iVbh50Qczxptim9kED1qzOZmDT6Sqcc5p0EKAAdN8jj/2AXv6fLSCsS0s04A0X/MMrhzzjWoQZKoyYjnJfQ==",
+  "success": true,
+  "projectFilePath": "D:\\Repositories\\DeveloperWOW64\\reform\\reform.Core\\reform.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jupiter\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Jupiter\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Jupiter\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

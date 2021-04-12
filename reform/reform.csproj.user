@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\Jupiter\OneDrive\Pictures\Icons\Edit Image large.png</Source>
+    <SmallTileSource>C:\Users\Jupiter\OneDrive\Pictures\Icons\Edit Image large.png</SmallTileSource>
+    <MediumTileSource>C:\Users\Jupiter\OneDrive\Pictures\Icons\Edit Image large.png</MediumTileSource>
+    <WideTileSource>C:\Users\Jupiter\OneDrive\Pictures\Icons\Edit Image large.png</WideTileSource>
+    <LargeTileSource>C:\Users\Jupiter\OneDrive\Pictures\Icons\Edit Image large.png</LargeTileSource>
+    <AppIconSource>C:\Users\Jupiter\OneDrive\Pictures\Icons\Edit Image large.png</AppIconSource>
+    <SplashScreenSource>C:\Users\Jupiter\OneDrive\Pictures\Icons\Edit Image large.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\Jupiter\OneDrive\Pictures\Icons\Edit Image large.png</PackageLogoSource>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
+    <UseEmulator>false</UseEmulator>
+    <UseSimulator>false</UseSimulator>
+  </PropertyGroup>
+</Project>
