@@ -19,18 +19,18 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Repositories\DeveloperWOW64\reform\reform\bin\x86\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>B346FD44556C6B9259A0FE3E5BF5069B5C9697E36642069A90D93C87C7802005</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>60EFDB33-CBF2-44F8-BD6E-C112040B834D_1.0.0.0_x86__7pxnk7wae7578</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>ABAA791A8F1CF3F83148A34E5026391A814C1E075AC9949109FAB29AF61E3A57</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>60EFDB33-CBF2-44F8-BD6E-C112040B834D_1.4.0.0_x86__7pxnk7wae7578</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>60EFDB33-CBF2-44F8-BD6E-C112040B834D_7pxnk7wae7578!App</RegisteredUserModeAppID>
     <RegisteredPackageID>60EFDB33-CBF2-44F8-BD6E-C112040B834D</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=Jupiter</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredVersion>1.4.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\Repositories\DeveloperWOW64\reform\reform\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-12T17:20:07.097</Modified>
+      <Modified>2021-04-12T17:33:02.744</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -335,19 +335,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\reform\bin\x86\Release\ilc\reform.dll">
       <PackagePath>reform.dll</PackagePath>
-      <Modified>2021-04-12T17:20:05.876</Modified>
+      <Modified>2021-04-12T17:33:01.547</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\reform\bin\x86\Release\ilc\reform.exe">
       <PackagePath>reform.exe</PackagePath>
-      <Modified>2021-04-12T17:20:07.054</Modified>
+      <Modified>2021-04-12T17:33:02.703</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\reform\bin\x86\Release\ilc\reform.pdb">
       <PackagePath>reform.pdb</PackagePath>
-      <Modified>2021-04-12T17:20:07.053</Modified>
+      <Modified>2021-04-12T17:33:02.702</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repositories\DeveloperWOW64\reform\reform\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-04-12T17:18:58.073</Modified>
+      <Modified>2021-04-12T17:32:05.900</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="60EFDB33-CBF2-44F8-BD6E-C112040B834D" Publisher="CN=Jupiter" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="60EFDB33-CBF2-44F8-BD6E-C112040B834D" Publisher="CN=Jupiter" Version="1.4.0.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="60EFDB33-CBF2-44F8-BD6E-C112040B834D" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Reform</DisplayName>
