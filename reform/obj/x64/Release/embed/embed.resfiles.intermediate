@@ -1,0 +1,12 @@
+App.xbf
+Styles\_Colors.xbf
+Styles\_FontSizes.xbf
+Styles\_Thickness.xbf
+Styles\CommandBar.xbf
+Styles\Page.xbf
+Styles\TextBlock.xbf
+Views\DrawPage.xbf
+Views\FirstRunDialog.xbf
+Views\MainPage.xbf
+Views\SettingsPage.xbf
+Views\ShellPage.xbf

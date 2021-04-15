@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-pt"
+"ResourceDimensions"		"language-pt-br"
+
+[Files]
+"D:\Repositories\DeveloperWOW64\reform\reform\obj\x86\Release\Upload\split.language-pt.pri"			"resources.pri"

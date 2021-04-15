@@ -1,0 +1,2 @@
+MainPackage=D:\Repositories\DeveloperWOW64\reform\reform\bin\x64\Release\Upload\reform_1.4.2.0_x64.msix
+SymbolPackage=D:\Repositories\DeveloperWOW64\reform\reform\bin\x64\Release\Upload\reform_1.4.2.0\reform_1.4.2.0_x64.appxsym

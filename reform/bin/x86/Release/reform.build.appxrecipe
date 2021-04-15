@@ -8,8 +8,8 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Release|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>60EFDB33-CBF2-44F8-BD6E-C112040B834D</PackageIdentityName>
-    <PackageIdentityPublisher>CN=Jupiter</PackageIdentityPublisher>
+    <PackageIdentityName>06b1c878-4973-4d70-81d1-284c51f17b86</PackageIdentityName>
+    <PackageIdentityPublisher>CN=75D915D1-299F-4157-8C4D-5881A35BAD1B</PackageIdentityPublisher>
     <IntermediateOutputPath>D:\Repositories\DeveloperWOW64\reform\reform\obj\x86\Release\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>

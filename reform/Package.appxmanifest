@@ -10,14 +10,14 @@
   IgnorableNamespaces="uap mp genTemplate desktop4 iot2">
 
   <Identity
-    Name="60EFDB33-CBF2-44F8-BD6E-C112040B834D"
-    Publisher="CN=Jupiter"
-    Version="1.4.0.0" />
+    Name="9617DeveloperWOW64.Reform-App"
+    Publisher="CN=75D915D1-299F-4157-8C4D-5881A35BAD1B"
+    Version="1.4.2.0" />
 
-  <mp:PhoneIdentity PhoneProductId="60EFDB33-CBF2-44F8-BD6E-C112040B834D" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="06b1c878-4973-4d70-81d1-284c51f17b86" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>Reform</DisplayName>
+    <DisplayName>Reform - App</DisplayName>
     <PublisherDisplayName>DeveloperWOW64</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>

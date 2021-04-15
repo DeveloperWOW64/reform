@@ -1,0 +1,6 @@
+MainPackage=D:\Repositories\DeveloperWOW64\reform\reform\bin\ARM\Release\reform_1.4.2.0_ARM.msix
+SymbolPackage=D:\Repositories\DeveloperWOW64\reform\reform\obj\ARM\Release\Symbols\reform_1.4.2.0_ARM.appxsym
+ResourcePack=D:\Repositories\DeveloperWOW64\reform\reform\bin\ARM\Release\reform_1.4.2.0_scale-100.msix
+ResourcePack=D:\Repositories\DeveloperWOW64\reform\reform\bin\ARM\Release\reform_1.4.2.0_scale-125.msix
+ResourcePack=D:\Repositories\DeveloperWOW64\reform\reform\bin\ARM\Release\reform_1.4.2.0_scale-150.msix
+ResourcePack=D:\Repositories\DeveloperWOW64\reform\reform\bin\ARM\Release\reform_1.4.2.0_scale-400.msix

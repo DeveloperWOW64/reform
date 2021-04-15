@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-ko"
+"ResourceDimensions"		"language-ko-kr"
+
+[Files]
+"D:\Repositories\DeveloperWOW64\reform\reform\obj\x64\Release\split.language-ko.pri"			"resources.pri"

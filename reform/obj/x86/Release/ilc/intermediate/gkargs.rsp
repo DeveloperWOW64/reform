@@ -16,6 +16,6 @@
 /Lib:"C:\Users\Jupiter\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.2.8-rel-28605-00\tools\x86\ilc\lib\Private"
 /WinMD:"D:\Repositories\DeveloperWOW64\reform\reform\obj\x86\Release\ilc\in\WinMetadata\Microsoft.UI.Xaml.winmd"
 /WinMD:"D:\Repositories\DeveloperWOW64\reform\reform\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd"
-/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"81ca2317-6df5-4d00-a5c5-c90910594c5a","Id":"4f2fb018-bb8b-49e5-8a41-0fc018a3d6e9","ProcessStartTime":637538428380920947}"
+/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"81ca2317-6df5-4d00-a5c5-c90910594c5a","Id":"dabbae54-88ac-4cd3-ad46-ddcc62c407ac","ProcessStartTime":637540139855727041}"
 /RdXmlPath:"C:\Users\Jupiter\.nuget\packages\microsoft.net.native.compiler\2.2.8-rel-28605-00\tools\LibraryXML"
 /RunOnlyPreDR
