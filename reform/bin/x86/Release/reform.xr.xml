@@ -26,8 +26,59 @@
     <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
       <RootProperty Name="MergedDictionaries" />
       <RootProperty Name="Source" />
+      <RootProperty Name="ThemeDictionaries" />
     </RootType>
     <RootType FullName="Microsoft.UI.Xaml.Controls.XamlControlsResources" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension">
+      <RootProperty Name="ResourceKey" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
+      <RootProperty Name="Color" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.ColorPaletteResources">
+      <RootProperty Name="Accent" />
+      <RootProperty Name="AltHigh" />
+      <RootProperty Name="AltLow" />
+      <RootProperty Name="AltMedium" />
+      <RootProperty Name="AltMediumHigh" />
+      <RootProperty Name="AltMediumLow" />
+      <RootProperty Name="BaseHigh" />
+      <RootProperty Name="BaseLow" />
+      <RootProperty Name="BaseMedium" />
+      <RootProperty Name="BaseMediumHigh" />
+      <RootProperty Name="BaseMediumLow" />
+      <RootProperty Name="ChromeAltLow" />
+      <RootProperty Name="ChromeBlackHigh" />
+      <RootProperty Name="ChromeBlackLow" />
+      <RootProperty Name="ChromeBlackMedium" />
+      <RootProperty Name="ChromeBlackMediumLow" />
+      <RootProperty Name="ChromeDisabledHigh" />
+      <RootProperty Name="ChromeDisabledLow" />
+      <RootProperty Name="ChromeGray" />
+      <RootProperty Name="ChromeHigh" />
+      <RootProperty Name="ChromeLow" />
+      <RootProperty Name="ChromeMedium" />
+      <RootProperty Name="ChromeMediumLow" />
+      <RootProperty Name="ChromeWhite" />
+      <RootProperty Name="ListLow" />
+      <RootProperty Name="ListMedium" />
+    </RootType>
+    <RootType FullName="Windows.UI.Color" />
+    <RootType FullName="Windows.UI.Xaml.Media.AcrylicBrush">
+      <RootProperty Name="BackgroundSource" />
+      <RootProperty Name="TintColor" />
+      <RootProperty Name="TintOpacity" />
+      <RootProperty Name="FallbackColor" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.CornerRadius" />
+    <RootType FullName="Windows.UI.Xaml.Thickness" />
+    <RootType FullName="System.Double" />
+    <RootType FullName="Windows.UI.Xaml.Media.RevealBackgroundBrush">
+      <RootProperty Name="TargetTheme" />
+      <RootProperty Name="Color" />
+      <RootProperty Name="FallbackColor" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.CommandBar">
       <RootProperty Name="DefaultLabelPosition" />
       <RootProperty Name="Style" />
@@ -47,18 +98,12 @@
       <RootProperty Name="Property" />
       <RootProperty Name="Value" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Style" />
       <RootProperty Name="Resources" />
       <RootProperty Name="Content" />
       <RootEvent Name="Loaded" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
-      <RootProperty Name="Color" />
-    </RootType>
-    <RootType FullName="System.Double" />
-    <RootType FullName="Windows.UI.Xaml.Thickness" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="FontWeight" />
       <RootProperty Name="FontSize" />
@@ -71,7 +116,6 @@
       <RootProperty Name="Inlines" />
       <RootProperty Name="Style" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
     </RootType>

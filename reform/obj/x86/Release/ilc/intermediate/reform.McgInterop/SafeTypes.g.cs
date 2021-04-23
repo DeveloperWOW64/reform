@@ -56219,6 +56219,18 @@ namespace Windows.UI.Composition
 		}
 	}
 
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Composition.ICompositionBrush))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe class CompositionBrush : global::Windows.UI.Composition.CompositionObject, global::Windows.UI.Composition.ICompositionBrush
+	{
+		public CompositionBrush(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Composition.ICompositionGraphicsDevice))]
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -56274,6 +56286,12 @@ namespace Windows.UI.Composition
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IAnimationPropertyInfo
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ICompositionBrush
 	{
 	}
 
@@ -59428,6 +59446,14 @@ namespace Windows.UI.Xaml
 			return __retVal;
 		}
 
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ThemeDictionaries")]
+		public virtual global::System.Collections.Generic.IDictionary<object, object> get_ThemeDictionaries()
+		{
+			global::System.Collections.Generic.IDictionary<object, object> __retVal = global::Windows.UI.Xaml.IResourceDictionary__Impl.Stubs.get_ThemeDictionaries(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
 		public ResourceDictionary(global::System.IntPtr dummy) : 
 				base(dummy)
 		{
@@ -59452,6 +59478,539 @@ namespace Windows.UI.Xaml
 	public unsafe sealed class WindowCreatedEventArgs : global::System.__ComObject, global::Windows.UI.Xaml.IWindowCreatedEventArgs
 	{
 		public WindowCreatedEventArgs(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IColorPaletteResources))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(458752)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe class ColorPaletteResources : global::Windows.UI.Xaml.ResourceDictionary, global::Windows.UI.Xaml.IColorPaletteResources
+	{
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		public ColorPaletteResources() : 
+				base(default(global::System.IntPtr))
+		{
+			global::System.IntPtr retval;
+			retval = __Factory_Windows_UI_Xaml__IColorPaletteResourcesFactory_CreateInstance("Windows.UI.Xaml.ColorPaletteResources");
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::__Interop.McgHelpers.GetIUnknownForFactoryReturn(ref retval);
+			this.__AttachAndRelease(retval);
+		}
+
+		global::System.IntPtr __Factory_Windows_UI_Xaml__IColorPaletteResourcesFactory_CreateInstance(string typeName)
+		{
+			global::System.IntPtr innerInspectable;
+			global::System.IntPtr outerInspectable = default(global::System.IntPtr);
+			if (global::System.Runtime.InteropServices.McgMarshal.IsOfType(
+								this, 
+								typeof(global::Windows.UI.Xaml.ColorPaletteResources).TypeHandle
+							))
+			{
+				global::System.IntPtr __pRetVal_NoAggregation;
+				__pRetVal_NoAggregation = global::Windows.UI.Xaml.IColorPaletteResourcesFactory__Impl.Stubs.CreateInstance(
+									global::System.Runtime.InteropServices.McgMarshal.GetActivationFactory(
+														typeName, 
+														typeof(global::Windows.UI.Xaml.IColorPaletteResourcesFactory).TypeHandle
+													), 
+									outerInspectable, 
+									out innerInspectable
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(innerInspectable);
+				global::__Interop.McgHelpers.GetIUnknownForFactoryReturn(ref __pRetVal_NoAggregation);
+				return __pRetVal_NoAggregation;
+			}
+			else
+			{
+				outerInspectable = global::System.Runtime.InteropServices.McgMarshal.GetOuterIInspectableForManagedObject(this);
+				global::System.IntPtr __pRetVal_WithAggregation;
+				__pRetVal_WithAggregation = global::Windows.UI.Xaml.IColorPaletteResourcesFactory__Impl.Stubs.CreateInstance(
+									global::System.Runtime.InteropServices.McgMarshal.GetActivationFactory(
+														typeName, 
+														typeof(global::Windows.UI.Xaml.IColorPaletteResourcesFactory).TypeHandle
+													), 
+									outerInspectable, 
+									out innerInspectable
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(outerInspectable);
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(__pRetVal_WithAggregation);
+				return innerInspectable;
+			}
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AltHigh")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_AltHigh()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_AltHigh(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AltHigh")]
+		public virtual void put_AltHigh(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_AltHigh(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AltLow")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_AltLow()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_AltLow(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AltLow")]
+		public virtual void put_AltLow(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_AltLow(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AltMedium")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_AltMedium()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_AltMedium(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AltMedium")]
+		public virtual void put_AltMedium(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_AltMedium(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AltMediumHigh")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_AltMediumHigh()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_AltMediumHigh(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AltMediumHigh")]
+		public virtual void put_AltMediumHigh(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_AltMediumHigh(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AltMediumLow")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_AltMediumLow()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_AltMediumLow(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AltMediumLow")]
+		public virtual void put_AltMediumLow(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_AltMediumLow(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BaseHigh")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_BaseHigh()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_BaseHigh(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BaseHigh")]
+		public virtual void put_BaseHigh(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_BaseHigh(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BaseLow")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_BaseLow()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_BaseLow(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BaseLow")]
+		public virtual void put_BaseLow(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_BaseLow(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BaseMedium")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_BaseMedium()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_BaseMedium(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BaseMedium")]
+		public virtual void put_BaseMedium(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_BaseMedium(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BaseMediumHigh")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_BaseMediumHigh()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_BaseMediumHigh(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BaseMediumHigh")]
+		public virtual void put_BaseMediumHigh(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_BaseMediumHigh(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BaseMediumLow")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_BaseMediumLow()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_BaseMediumLow(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BaseMediumLow")]
+		public virtual void put_BaseMediumLow(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_BaseMediumLow(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeAltLow")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_ChromeAltLow()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_ChromeAltLow(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeAltLow")]
+		public virtual void put_ChromeAltLow(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_ChromeAltLow(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeBlackHigh")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_ChromeBlackHigh()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_ChromeBlackHigh(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeBlackHigh")]
+		public virtual void put_ChromeBlackHigh(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_ChromeBlackHigh(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeBlackLow")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_ChromeBlackLow()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_ChromeBlackLow(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeBlackLow")]
+		public virtual void put_ChromeBlackLow(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_ChromeBlackLow(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeBlackMediumLow")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_ChromeBlackMediumLow()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_ChromeBlackMediumLow(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeBlackMediumLow")]
+		public virtual void put_ChromeBlackMediumLow(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_ChromeBlackMediumLow(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeBlackMedium")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_ChromeBlackMedium()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_ChromeBlackMedium(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeBlackMedium")]
+		public virtual void put_ChromeBlackMedium(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_ChromeBlackMedium(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeDisabledHigh")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_ChromeDisabledHigh()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_ChromeDisabledHigh(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeDisabledHigh")]
+		public virtual void put_ChromeDisabledHigh(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_ChromeDisabledHigh(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeDisabledLow")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_ChromeDisabledLow()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_ChromeDisabledLow(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeDisabledLow")]
+		public virtual void put_ChromeDisabledLow(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_ChromeDisabledLow(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeHigh")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_ChromeHigh()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_ChromeHigh(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeHigh")]
+		public virtual void put_ChromeHigh(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_ChromeHigh(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeLow")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_ChromeLow()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_ChromeLow(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeLow")]
+		public virtual void put_ChromeLow(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_ChromeLow(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeMedium")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_ChromeMedium()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_ChromeMedium(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeMedium")]
+		public virtual void put_ChromeMedium(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_ChromeMedium(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeMediumLow")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_ChromeMediumLow()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_ChromeMediumLow(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeMediumLow")]
+		public virtual void put_ChromeMediumLow(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_ChromeMediumLow(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeWhite")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_ChromeWhite()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_ChromeWhite(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeWhite")]
+		public virtual void put_ChromeWhite(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_ChromeWhite(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeGray")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_ChromeGray()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_ChromeGray(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeGray")]
+		public virtual void put_ChromeGray(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_ChromeGray(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ListLow")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_ListLow()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_ListLow(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ListLow")]
+		public virtual void put_ListLow(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_ListLow(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ListMedium")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_ListMedium()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_ListMedium(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ListMedium")]
+		public virtual void put_ListMedium(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_ListMedium(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Accent")]
+		public virtual global::System.Nullable<global::Windows.UI.Color> get_Accent()
+		{
+			global::System.Nullable<global::Windows.UI.Color> __retVal = global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.get_Accent(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Accent")]
+		public virtual void put_Accent(global::System.Nullable<global::Windows.UI.Color> value)
+		{
+			global::Windows.UI.Xaml.IColorPaletteResources__Impl.Stubs.put_Accent(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		public ColorPaletteResources(global::System.IntPtr dummy) : 
+				base(dummy)
 		{
 		}
 	}
@@ -62475,6 +63034,9 @@ namespace Windows.UI.Xaml
 
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "MergedDictionaries")]
 		global::System.Collections.Generic.IList<global::Windows.UI.Xaml.ResourceDictionary> get_MergedDictionaries();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ThemeDictionaries")]
+		global::System.Collections.Generic.IDictionary<object, object> get_ThemeDictionaries();
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -62558,6 +63120,176 @@ namespace Windows.UI.Xaml
 	public unsafe interface IApplicationOverrides2
 	{
 		void OnBackgroundActivated(global::Windows.ApplicationModel.Activation.BackgroundActivatedEventArgs args);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IColorPaletteResourcesFactory
+	{
+		global::System.IntPtr CreateInstance(
+					global::System.IntPtr baseInterface, 
+					out global::System.IntPtr innerInterface);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IColorPaletteResources
+	{
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AltHigh")]
+		global::System.Nullable<global::Windows.UI.Color> get_AltHigh();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AltHigh")]
+		void put_AltHigh(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AltLow")]
+		global::System.Nullable<global::Windows.UI.Color> get_AltLow();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AltLow")]
+		void put_AltLow(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AltMedium")]
+		global::System.Nullable<global::Windows.UI.Color> get_AltMedium();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AltMedium")]
+		void put_AltMedium(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AltMediumHigh")]
+		global::System.Nullable<global::Windows.UI.Color> get_AltMediumHigh();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AltMediumHigh")]
+		void put_AltMediumHigh(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AltMediumLow")]
+		global::System.Nullable<global::Windows.UI.Color> get_AltMediumLow();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AltMediumLow")]
+		void put_AltMediumLow(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BaseHigh")]
+		global::System.Nullable<global::Windows.UI.Color> get_BaseHigh();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BaseHigh")]
+		void put_BaseHigh(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BaseLow")]
+		global::System.Nullable<global::Windows.UI.Color> get_BaseLow();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BaseLow")]
+		void put_BaseLow(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BaseMedium")]
+		global::System.Nullable<global::Windows.UI.Color> get_BaseMedium();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BaseMedium")]
+		void put_BaseMedium(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BaseMediumHigh")]
+		global::System.Nullable<global::Windows.UI.Color> get_BaseMediumHigh();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BaseMediumHigh")]
+		void put_BaseMediumHigh(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BaseMediumLow")]
+		global::System.Nullable<global::Windows.UI.Color> get_BaseMediumLow();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BaseMediumLow")]
+		void put_BaseMediumLow(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeAltLow")]
+		global::System.Nullable<global::Windows.UI.Color> get_ChromeAltLow();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeAltLow")]
+		void put_ChromeAltLow(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeBlackHigh")]
+		global::System.Nullable<global::Windows.UI.Color> get_ChromeBlackHigh();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeBlackHigh")]
+		void put_ChromeBlackHigh(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeBlackLow")]
+		global::System.Nullable<global::Windows.UI.Color> get_ChromeBlackLow();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeBlackLow")]
+		void put_ChromeBlackLow(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeBlackMediumLow")]
+		global::System.Nullable<global::Windows.UI.Color> get_ChromeBlackMediumLow();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeBlackMediumLow")]
+		void put_ChromeBlackMediumLow(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeBlackMedium")]
+		global::System.Nullable<global::Windows.UI.Color> get_ChromeBlackMedium();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeBlackMedium")]
+		void put_ChromeBlackMedium(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeDisabledHigh")]
+		global::System.Nullable<global::Windows.UI.Color> get_ChromeDisabledHigh();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeDisabledHigh")]
+		void put_ChromeDisabledHigh(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeDisabledLow")]
+		global::System.Nullable<global::Windows.UI.Color> get_ChromeDisabledLow();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeDisabledLow")]
+		void put_ChromeDisabledLow(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeHigh")]
+		global::System.Nullable<global::Windows.UI.Color> get_ChromeHigh();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeHigh")]
+		void put_ChromeHigh(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeLow")]
+		global::System.Nullable<global::Windows.UI.Color> get_ChromeLow();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeLow")]
+		void put_ChromeLow(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeMedium")]
+		global::System.Nullable<global::Windows.UI.Color> get_ChromeMedium();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeMedium")]
+		void put_ChromeMedium(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeMediumLow")]
+		global::System.Nullable<global::Windows.UI.Color> get_ChromeMediumLow();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeMediumLow")]
+		void put_ChromeMediumLow(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeWhite")]
+		global::System.Nullable<global::Windows.UI.Color> get_ChromeWhite();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeWhite")]
+		void put_ChromeWhite(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChromeGray")]
+		global::System.Nullable<global::Windows.UI.Color> get_ChromeGray();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChromeGray")]
+		void put_ChromeGray(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ListLow")]
+		global::System.Nullable<global::Windows.UI.Color> get_ListLow();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ListLow")]
+		void put_ListLow(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ListMedium")]
+		global::System.Nullable<global::Windows.UI.Color> get_ListMedium();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ListMedium")]
+		void put_ListMedium(global::System.Nullable<global::Windows.UI.Color> value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Accent")]
+		global::System.Nullable<global::Windows.UI.Color> get_Accent();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Accent")]
+		void put_Accent(global::System.Nullable<global::Windows.UI.Color> value);
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -63509,6 +64241,15 @@ namespace Windows.UI.Xaml
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IRectHelper
 	{
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum ApplicationTheme
+	{
+		Light = 0,
+		Dark = 1,
 	}
 
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
@@ -74587,6 +75328,325 @@ namespace Windows.UI.Xaml.Media
 		}
 	}
 
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Media.IXamlCompositionBrushBase))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Media.IXamlCompositionBrushBaseProtected))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Media.IXamlCompositionBrushBaseOverrides))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe class XamlCompositionBrushBase : global::Windows.UI.Xaml.Media.Brush, global::Windows.UI.Xaml.Media.IXamlCompositionBrushBase, global::Windows.UI.Xaml.Media.IXamlCompositionBrushBaseProtected, global::Windows.UI.Xaml.Media.IXamlCompositionBrushBaseOverrides
+	{
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "FallbackColor")]
+		public virtual global::Windows.UI.Color get_FallbackColor()
+		{
+			global::Windows.UI.Color __retVal = global::Windows.UI.Xaml.Media.IXamlCompositionBrushBase__Impl.Stubs.get_FallbackColor(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "FallbackColor")]
+		public virtual void put_FallbackColor(global::Windows.UI.Color value)
+		{
+			global::Windows.UI.Xaml.Media.IXamlCompositionBrushBase__Impl.Stubs.put_FallbackColor(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		global::Windows.UI.Composition.CompositionBrush global::Windows.UI.Xaml.Media.IXamlCompositionBrushBaseProtected.get_CompositionBrush()
+		{
+			global::Windows.UI.Composition.CompositionBrush __retVal_1 = this.get_CompositionBrush();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal_1;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "CompositionBrush")]
+		protected virtual global::Windows.UI.Composition.CompositionBrush get_CompositionBrush()
+		{
+			global::Windows.UI.Composition.CompositionBrush __retVal = global::Windows.UI.Xaml.Media.IXamlCompositionBrushBaseProtected__Impl.Stubs.get_CompositionBrush(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		void global::Windows.UI.Xaml.Media.IXamlCompositionBrushBaseProtected.put_CompositionBrush(global::Windows.UI.Composition.CompositionBrush value)
+		{
+			this.put_CompositionBrush(value);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "CompositionBrush")]
+		protected virtual void put_CompositionBrush(global::Windows.UI.Composition.CompositionBrush value)
+		{
+			global::Windows.UI.Xaml.Media.IXamlCompositionBrushBaseProtected__Impl.Stubs.put_CompositionBrush(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		void global::Windows.UI.Xaml.Media.IXamlCompositionBrushBaseOverrides.OnConnected()
+		{
+			this.OnConnected();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		protected virtual void OnConnected()
+		{
+			global::Windows.UI.Xaml.Media.IXamlCompositionBrushBaseOverrides__Impl.Stubs.OnConnected(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		void global::Windows.UI.Xaml.Media.IXamlCompositionBrushBaseOverrides.OnDisconnected()
+		{
+			this.OnDisconnected();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		protected virtual void OnDisconnected()
+		{
+			global::Windows.UI.Xaml.Media.IXamlCompositionBrushBaseOverrides__Impl.Stubs.OnDisconnected(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		public XamlCompositionBrushBase(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Media.IAcrylicBrush))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(327680)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe class AcrylicBrush : global::Windows.UI.Xaml.Media.XamlCompositionBrushBase, global::Windows.UI.Xaml.Media.IAcrylicBrush
+	{
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		public AcrylicBrush() : 
+				base(default(global::System.IntPtr))
+		{
+			global::System.IntPtr retval;
+			retval = __Factory_Windows_UI_Xaml_Media__IAcrylicBrushFactory_CreateInstance("Windows.UI.Xaml.Media.AcrylicBrush");
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::__Interop.McgHelpers.GetIUnknownForFactoryReturn(ref retval);
+			this.__AttachAndRelease(retval);
+		}
+
+		global::System.IntPtr __Factory_Windows_UI_Xaml_Media__IAcrylicBrushFactory_CreateInstance(string typeName)
+		{
+			global::System.IntPtr innerInspectable;
+			global::System.IntPtr outerInspectable = default(global::System.IntPtr);
+			if (global::System.Runtime.InteropServices.McgMarshal.IsOfType(
+								this, 
+								typeof(global::Windows.UI.Xaml.Media.AcrylicBrush).TypeHandle
+							))
+			{
+				global::System.IntPtr __pRetVal_NoAggregation;
+				__pRetVal_NoAggregation = global::Windows.UI.Xaml.Media.IAcrylicBrushFactory__Impl.Stubs.CreateInstance(
+									global::System.Runtime.InteropServices.McgMarshal.GetActivationFactory(
+														typeName, 
+														typeof(global::Windows.UI.Xaml.Media.IAcrylicBrushFactory).TypeHandle
+													), 
+									outerInspectable, 
+									out innerInspectable
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(innerInspectable);
+				global::__Interop.McgHelpers.GetIUnknownForFactoryReturn(ref __pRetVal_NoAggregation);
+				return __pRetVal_NoAggregation;
+			}
+			else
+			{
+				outerInspectable = global::System.Runtime.InteropServices.McgMarshal.GetOuterIInspectableForManagedObject(this);
+				global::System.IntPtr __pRetVal_WithAggregation;
+				__pRetVal_WithAggregation = global::Windows.UI.Xaml.Media.IAcrylicBrushFactory__Impl.Stubs.CreateInstance(
+									global::System.Runtime.InteropServices.McgMarshal.GetActivationFactory(
+														typeName, 
+														typeof(global::Windows.UI.Xaml.Media.IAcrylicBrushFactory).TypeHandle
+													), 
+									outerInspectable, 
+									out innerInspectable
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(outerInspectable);
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(__pRetVal_WithAggregation);
+				return innerInspectable;
+			}
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BackgroundSource")]
+		public virtual global::Windows.UI.Xaml.Media.AcrylicBackgroundSource get_BackgroundSource()
+		{
+			global::Windows.UI.Xaml.Media.AcrylicBackgroundSource __retVal = global::Windows.UI.Xaml.Media.IAcrylicBrush__Impl.Stubs.get_BackgroundSource(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BackgroundSource")]
+		public virtual void put_BackgroundSource(global::Windows.UI.Xaml.Media.AcrylicBackgroundSource value)
+		{
+			global::Windows.UI.Xaml.Media.IAcrylicBrush__Impl.Stubs.put_BackgroundSource(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "TintColor")]
+		public virtual global::Windows.UI.Color get_TintColor()
+		{
+			global::Windows.UI.Color __retVal = global::Windows.UI.Xaml.Media.IAcrylicBrush__Impl.Stubs.get_TintColor(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "TintColor")]
+		public virtual void put_TintColor(global::Windows.UI.Color value)
+		{
+			global::Windows.UI.Xaml.Media.IAcrylicBrush__Impl.Stubs.put_TintColor(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "TintOpacity")]
+		public virtual double get_TintOpacity()
+		{
+			double __retVal = global::Windows.UI.Xaml.Media.IAcrylicBrush__Impl.Stubs.get_TintOpacity(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "TintOpacity")]
+		public virtual void put_TintOpacity(double value)
+		{
+			global::Windows.UI.Xaml.Media.IAcrylicBrush__Impl.Stubs.put_TintOpacity(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		public AcrylicBrush(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Media.IRevealBrush))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe class RevealBrush : global::Windows.UI.Xaml.Media.XamlCompositionBrushBase, global::Windows.UI.Xaml.Media.IRevealBrush
+	{
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Color")]
+		public virtual global::Windows.UI.Color get_Color()
+		{
+			global::Windows.UI.Color __retVal = global::Windows.UI.Xaml.Media.IRevealBrush__Impl.Stubs.get_Color(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Color")]
+		public virtual void put_Color(global::Windows.UI.Color value)
+		{
+			global::Windows.UI.Xaml.Media.IRevealBrush__Impl.Stubs.put_Color(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "TargetTheme")]
+		public virtual global::Windows.UI.Xaml.ApplicationTheme get_TargetTheme()
+		{
+			global::Windows.UI.Xaml.ApplicationTheme __retVal = global::Windows.UI.Xaml.Media.IRevealBrush__Impl.Stubs.get_TargetTheme(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "TargetTheme")]
+		public virtual void put_TargetTheme(global::Windows.UI.Xaml.ApplicationTheme value)
+		{
+			global::Windows.UI.Xaml.Media.IRevealBrush__Impl.Stubs.put_TargetTheme(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		public RevealBrush(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Media.IRevealBackgroundBrush))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(327680)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe class RevealBackgroundBrush : global::Windows.UI.Xaml.Media.RevealBrush, global::Windows.UI.Xaml.Media.IRevealBackgroundBrush
+	{
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		public RevealBackgroundBrush() : 
+				base(default(global::System.IntPtr))
+		{
+			global::System.IntPtr retval;
+			retval = __Factory_Windows_UI_Xaml_Media__IRevealBackgroundBrushFactory_CreateInstance("Windows.UI.Xaml.Media.RevealBackgroundBrush");
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::__Interop.McgHelpers.GetIUnknownForFactoryReturn(ref retval);
+			this.__AttachAndRelease(retval);
+		}
+
+		global::System.IntPtr __Factory_Windows_UI_Xaml_Media__IRevealBackgroundBrushFactory_CreateInstance(string typeName)
+		{
+			global::System.IntPtr innerInspectable;
+			global::System.IntPtr outerInspectable = default(global::System.IntPtr);
+			if (global::System.Runtime.InteropServices.McgMarshal.IsOfType(
+								this, 
+								typeof(global::Windows.UI.Xaml.Media.RevealBackgroundBrush).TypeHandle
+							))
+			{
+				global::System.IntPtr __pRetVal_NoAggregation;
+				__pRetVal_NoAggregation = global::Windows.UI.Xaml.Media.IRevealBackgroundBrushFactory__Impl.Stubs.CreateInstance(
+									global::System.Runtime.InteropServices.McgMarshal.GetActivationFactory(
+														typeName, 
+														typeof(global::Windows.UI.Xaml.Media.IRevealBackgroundBrushFactory).TypeHandle
+													), 
+									outerInspectable, 
+									out innerInspectable
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(innerInspectable);
+				global::__Interop.McgHelpers.GetIUnknownForFactoryReturn(ref __pRetVal_NoAggregation);
+				return __pRetVal_NoAggregation;
+			}
+			else
+			{
+				outerInspectable = global::System.Runtime.InteropServices.McgMarshal.GetOuterIInspectableForManagedObject(this);
+				global::System.IntPtr __pRetVal_WithAggregation;
+				__pRetVal_WithAggregation = global::Windows.UI.Xaml.Media.IRevealBackgroundBrushFactory__Impl.Stubs.CreateInstance(
+									global::System.Runtime.InteropServices.McgMarshal.GetActivationFactory(
+														typeName, 
+														typeof(global::Windows.UI.Xaml.Media.IRevealBackgroundBrushFactory).TypeHandle
+													), 
+									outerInspectable, 
+									out innerInspectable
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(outerInspectable);
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(__pRetVal_WithAggregation);
+				return innerInspectable;
+			}
+		}
+
+		public RevealBackgroundBrush(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Media.IFontFamily))]
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -75059,6 +76119,101 @@ namespace Windows.UI.Xaml.Media
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IXamlCompositionBrushBase
+	{
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "FallbackColor")]
+		global::Windows.UI.Color get_FallbackColor();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "FallbackColor")]
+		void put_FallbackColor(global::Windows.UI.Color value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IXamlCompositionBrushBaseProtected
+	{
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "CompositionBrush")]
+		global::Windows.UI.Composition.CompositionBrush get_CompositionBrush();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "CompositionBrush")]
+		void put_CompositionBrush(global::Windows.UI.Composition.CompositionBrush value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IXamlCompositionBrushBaseOverrides
+	{
+		void OnConnected();
+
+		void OnDisconnected();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IAcrylicBrushFactory
+	{
+		global::System.IntPtr CreateInstance(
+					global::System.IntPtr baseInterface, 
+					out global::System.IntPtr innerInterface);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IAcrylicBrush
+	{
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BackgroundSource")]
+		global::Windows.UI.Xaml.Media.AcrylicBackgroundSource get_BackgroundSource();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BackgroundSource")]
+		void put_BackgroundSource(global::Windows.UI.Xaml.Media.AcrylicBackgroundSource value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "TintColor")]
+		global::Windows.UI.Color get_TintColor();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "TintColor")]
+		void put_TintColor(global::Windows.UI.Color value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "TintOpacity")]
+		double get_TintOpacity();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "TintOpacity")]
+		void put_TintOpacity(double value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IRevealBrush
+	{
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Color")]
+		global::Windows.UI.Color get_Color();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Color")]
+		void put_Color(global::Windows.UI.Color value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "TargetTheme")]
+		global::Windows.UI.Xaml.ApplicationTheme get_TargetTheme();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "TargetTheme")]
+		void put_TargetTheme(global::Windows.UI.Xaml.ApplicationTheme value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IRevealBackgroundBrushFactory
+	{
+		global::System.IntPtr CreateInstance(
+					global::System.IntPtr baseInterface, 
+					out global::System.IntPtr innerInterface);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IRevealBackgroundBrush
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IFontFamily
 	{
 	}
@@ -75116,6 +76271,15 @@ namespace Windows.UI.Xaml.Media
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IVisualTreeHelper
 	{
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum AcrylicBackgroundSource
+	{
+		HostBackdrop = 0,
+		Backdrop = 1,
 	}
 
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]

@@ -865,3 +865,6 @@ D:\Repositories\DeveloperWOW64\reform\reform\obj\x86\Release\ilc\intermediate\Re
 D:\Repositories\DeveloperWOW64\reform\reform\obj\x86\Release\ilc\intermediate\rhbindargs.reform.rsp
 D:\Repositories\DeveloperWOW64\reform\reform\obj\x86\Release\ilc\intermediate\System.Private.reform.Generated.dll
 D:\Repositories\DeveloperWOW64\reform\reform\bin\x86\Release\Upload\reform.build.appxrecipe
+D:\Repositories\DeveloperWOW64\reform\reform\obj\x86\Release\DevAdminTheme.xaml
+D:\Repositories\DeveloperWOW64\reform\reform\obj\x86\Release\DevAdminTheme.xbf
+D:\Repositories\DeveloperWOW64\reform\reform\bin\x86\Release\DevAdminTheme.xbf
